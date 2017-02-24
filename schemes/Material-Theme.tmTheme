@@ -127,14 +127,25 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A8F3FF</string>
+				<string>#66B3FF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Import</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>keyword.control.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A1A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage, Entity Name</string>
+			<key>scope</key>
+			<string>storage.type, entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -149,18 +160,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A8F3FF</string>
+				<string>#66B3FF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Variable, Function Parameter</string>
 			<key>scope</key>
-			<string>variable.other</string>
+			<string>variable.other, variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFE0</string>
+				<string>#FFFFB3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,7 +204,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB080</string>
+				<string>#FFAB66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,33 +220,31 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<string>Number, Constant, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F78C6C</string>
+				<string>#FF6666</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<string>String</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+			<string>string, punctuation.definition.generic, punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>normal</string>
 				<key>foreground</key>
-				<string>#C3E88D</string>
+				<string>#FF6666</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class, Support</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types</string>
+			<string>support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -781,7 +790,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown - Punctuation Definition</string>
+			<string>Markdown</string>
 			<key>scope</key>
 			<string>text.html.markdown punctuation.definition</string>
 			<key>settings</key>
